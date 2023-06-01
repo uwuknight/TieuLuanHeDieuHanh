@@ -11,24 +11,22 @@
 
 ## Features
 
-- Fetches data from an API endpoint and displays it in a table
-- Supports showing or hiding the table based on a button click
-- Applies CSS styles for table formatting and interactivity
+- Tìm nạp dữ liệu từ điểm cuối API và hiển thị dữ liệu đó trong bảng
+- Hỗ trợ hiển thị hoặc ẩn bảng dựa trên một nút bấm
+- Áp dụng các kiểu CSS để định dạng và tương tác bảng
 
 ## Installation
 
-1. Install [Node.js](https://nodejs.org) (which includes npm) on your machine.
+1. Cài đặt [Node.js](https://nodejs.org) (đã bao gồm npm) trên máy của bạn.
 
-2. Clone the repository or download the source code.
+2. Clone repository xuống or tải mã nguồn.
 
-3. Open a terminal or command prompt in the project directory.
+3. Mở một terminal hoặc command prompt trong thư mục dự án.
 
-4. Install the project dependencies by running the following command:
-   ```bash
+4. Cài đặt các phụ thuộc dự án bằng cách chạy lệnh sau:
    npm install
 
-5. Run the project:
-   ```bash
+5. Chạy dự án:
    npm run dev
 
 ## Usage
