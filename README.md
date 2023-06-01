@@ -17,7 +17,7 @@ This is the home page component of an application built with Next.js and React. 
 - Supports showing or hiding the table based on a button click
 - Applies CSS styles for table formatting and interactivity
 
-## Installation
+## Installation (cài đặt)
 
 1. Install [Node.js](https://nodejs.org) (which includes npm) on your machine.
 
