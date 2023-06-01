@@ -33,7 +33,7 @@
 
 1. Ứng dụng sẽ có thể truy cập được tại `http://localhost:3000`.
 
-2. Nhấp vào nút "Click me" để hiển thị bảng.
+2. Nhấp vào nút "Click to load data" để hiển thị bảng.
 
 ## CSS Styles
 
