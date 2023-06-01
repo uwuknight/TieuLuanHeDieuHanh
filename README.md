@@ -1,4 +1,4 @@
-# Tiệu luận môn Hệ Điều Hành thực hiện bởi Lê Trần Anh Khôi
+# Tiểu luận môn Hệ Điều Hành thực hiện bởi Lê Trần Anh Khôi
 Đây là mô tả chung ứng dụng web được xây dựng bằng Next.js và React. Nó hiển thị một bảng dữ liệu được tìm nạp từ một điểm cuối API và cho phép bảng được hiển thị hoặc ẩn dựa trên một lần nhấp vào nút.
 
 ## Table of Contents
