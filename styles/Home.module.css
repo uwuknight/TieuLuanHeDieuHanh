@@ -1,0 +1,81 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.button {
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.5s, color 0.5s;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  /* min-width: 97px; */
+}
+
+.button {
+  color: white;
+  border-radius: 8px;
+  background-color: #44c998;
+  border: 2px solid #44c998;
+  margin: auto;
+}
+
+.button:hover {
+  background-color: white;
+  color: #44c998;
+}
+
+.loaderContainer{
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  justify-items: center;
+  gap: 20px;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #44c998;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.table{
+  background-color: transparent;
+}
+
+.table > thead > tr > th{
+  color: white;
+	background:#44c998;
+  padding: 30px;
+  text-transform: uppercase;
+  min-width: 120px;
+}
+
+
+.table > tbody > tr:nth-of-type(odd) {
+  background-color: rgb(240, 240, 240);
+}
+
+.table > tbody > tr> td {
+  padding: 20px 0px 20px 20px;
+}
