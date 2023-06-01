@@ -11,13 +11,13 @@ This is the home page component of an application built with Next.js and React. 
 - [Contributing](#contributing)
 - [License](#license)
 
-## Features (chức năng)
+## Features
 
 - Fetches data from an API endpoint and displays it in a table
 - Supports showing or hiding the table based on a button click
 - Applies CSS styles for table formatting and interactivity
 
-## Installation (cài đặt)
+## Installation
 
 1. Install [Node.js](https://nodejs.org) (which includes npm) on your machine.
 
