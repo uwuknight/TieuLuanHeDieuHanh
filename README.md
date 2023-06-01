@@ -11,7 +11,7 @@ This is the home page component of an application built with Next.js and React. 
 - [Contributing](#contributing)
 - [License](#license)
 
-## Features
+## Features (chức năng)
 
 - Fetches data from an API endpoint and displays it in a table
 - Supports showing or hiding the table based on a button click
