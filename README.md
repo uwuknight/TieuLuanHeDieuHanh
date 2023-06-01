@@ -23,10 +23,10 @@
 
 3. Mở một terminal hoặc command prompt trong thư mục dự án.
 
-4. Cài đặt các phụ thuộc dự án bằng cách chạy lệnh sau:
+4. Cài đặt các phụ thuộc dự án bằng cách chạy lệnh sau(chỉ cần làm một lần duy nhất):
    npm install
 
-5. Chạy dự án:
+5. Chạy dự án(nhập lệnh mỗi khi muốn sử dụng offline, không cần nhập sau khi thay đổi code trong dự án chỉ cần ấn tổ hợp phím Ctrl+S web sẽ tự reload):
    npm run dev
 
 ## Usage
