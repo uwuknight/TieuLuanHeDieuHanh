@@ -1,10 +1,8 @@
 # Home Page
-
-This is the home page component of an application built with Next.js and React. It displays a table of data fetched from an API endpoint and allows the table to be shown or hidden based on a button click.
+Đây là thành phần trang chủ của một ứng dụng được xây dựng bằng Next.js và React. Nó hiển thị một bảng dữ liệu được tìm nạp từ một điểm cuối API và cho phép bảng được hiển thị hoặc ẩn dựa trên một lần nhấp vào nút.
 
 ## Table of Contents
-
-- [Features](#features (chức năng))
+- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [CSS Styles](#css-styles)
