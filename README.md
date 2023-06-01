@@ -4,7 +4,7 @@ This is the home page component of an application built with Next.js and React. 
 
 ## Table of Contents
 
-- [Features](#features)
+- [Features](#features (chức năng))
 - [Installation](#installation)
 - [Usage](#usage)
 - [CSS Styles](#css-styles)
