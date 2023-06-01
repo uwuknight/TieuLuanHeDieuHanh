@@ -31,22 +31,19 @@
 
 ## Usage
 
-1. The application will be accessible at `http://localhost:3000`.
+1. Ứng dụng sẽ có thể truy cập được tại `http://localhost:3000`.
 
-2. Click the "Click me" button to show the table.
+2. Nhấp vào nút "Click me" để hiển thị bảng.
 
 ## CSS Styles
 
-The table is styled using CSS rules defined in the [Home.module.css](./styles/Home.module.css) file. The styles include:
-
+Bảng được tạo kiểu bằng cách sử dụng các quy tắc CSS được xác định trong [Home.module.css](./styles/Home.module.css) file. Các phong cách bao gồm:
 - Table container styles
 - Header and cell styles
 - Background color and hover effects
 
 ## Contributing
-
-Contributions are welcome! If you find any issues or want to enhance the functionality of the home page, feel free to open an issue or submit a pull request.
+Các đóng góp luôn được chào đón! Nếu bạn tìm thấy bất kỳ vấn đề nào hoặc muốn nâng cao chức năng của trang web, vui lòng mở một issue hoặc gửi pull request.
 
 ## License
-
-This project is licensed under the [MIT License](LICENSE).
+Dự án này được cấp phép theo [MIT License](LICENSE).
