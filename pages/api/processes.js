@@ -1,40 +1,40 @@
 import { exec } from 'child_process';
 
 export default function handler(req, res) {
-  // Define a variable to store the output
+  // Định nghĩa biến để lưu trữ kết quả
   let storage = "";
 
-  // Execute the 'tasklist' command
+  // Thực thi lệnh 'tasklist'
   exec('tasklist', (err, stdout, stderr) => {
-    // Check if there was an error executing the command
+    // Kiểm tra nếu có lỗi khi thực thi lệnh
     if (err) {
       console.error(err);
-      res.status(500).json({ error: 'An error occurred' });
+      res.status(500).json({ error: 'Đã xảy ra lỗi' });
       return;
     }
 
-    // Split the output into lines
+    // Tách đầu ra thành các dòng
     var lines = stdout.split("\n");
-    
-    // Process each line starting from the fourth line (skipping headers)
+
+    // Xử lý từng dòng bắt đầu từ dòng thứ tư (bỏ qua tiêu đề)
     for (let i = 3; i < lines.length; i++) {
-      // Extract relevant information from each line and add it to the storage
+      // Trích xuất thông tin liên quan từ mỗi dòng và thêm vào biến lưu trữ
       storage += "\n" + tachChuoi(lines[i]);
     }
 
-    // Send the processed data as a JSON response
+    // Gửi dữ liệu đã xử lý dưới dạng phản hồi JSON
     res.status(200).json({ data: storage });
   });
 
-  // Helper function to extract relevant information from a string
+  // Hàm trợ giúp để trích xuất thông tin liên quan từ một chuỗi
   function tachChuoi(chuoi) {
     chuoi.trim();
     var values = chuoi.split(/\s+/);
     let temp = "";
 
-    // Concatenate the desired values from the string
-    temp += values[0] + "  " + values[1] + "  " + values[2] 
-    + "  " + values[3] + "  " + values[4] + values[5];
+    // Ghép các giá trị cần thiết từ chuỗi
+    temp += values[0] + "  " + values[1] + "  " + values[2]
+      + "  " + values[3] + "  " + values[4] + values[5];
     return temp;
   }
 }

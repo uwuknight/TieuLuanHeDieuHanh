@@ -7,7 +7,6 @@
   align-items: center;
 }
 
-
 .button {
   font-weight: 600;
   text-decoration: none;
@@ -15,7 +14,7 @@
   padding: 10px 20px;
   border: none;
   cursor: pointer;
-  /* min-width: 97px; */
+  font-size: 20px; /* Adjust the font size as needed */
 }
 
 .button {
@@ -31,7 +30,7 @@
   color: #44c998;
 }
 
-.loaderContainer{
+.loaderContainer {
   justify-content: center;
   align-items: center;
   display: grid;
@@ -58,24 +57,32 @@
   }
 }
 
-
-.table{
+.table {
   background-color: transparent;
 }
 
-.table > thead > tr > th{
+.table > thead > tr > th {
   color: white;
-	background:#44c998;
+  background: #44c998;
   padding: 30px;
   text-transform: uppercase;
   min-width: 120px;
+  font-size: 24px; /* Adjust the font size as needed */
 }
-
 
 .table > tbody > tr:nth-of-type(odd) {
   background-color: rgb(240, 240, 240);
 }
 
-.table > tbody > tr> td {
+.table > tbody > tr > td {
   padding: 20px 0px 20px 20px;
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+.memUsageHeader {
+  width: 200px; /* Adjust the width as needed */
+}
+
+.memUsageCell {
+  width: 200px; /* Adjust the width as needed */
 }
