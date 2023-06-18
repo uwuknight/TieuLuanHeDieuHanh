@@ -11,23 +11,24 @@ export default function Home() {
   }
 
   const fetchData = async () => {
-    await sleep(500);
+    await sleep(500); // Đợi 500ms
+  
     try {
-      const response = await fetch('/api/processes');
-      const { data } = await response.json();
-
+      const response = await fetch('/api/processes'); // Gửi yêu cầu đến '/api/processes'
+      const { data } = await response.json(); // Nhận dữ liệu từ phản hồi và chuyển thành đối tượng
+  
       const sortedData = data
-        .split('\n')
-        .slice(2, -1)
-        .map((row) => row.split(/\s{2,}/))
-        .sort((a, b) => parseFloat(b[4]) - parseFloat(a[4]))
-        .map((row) => row.join('  '));
-
-      setData(sortedData);
+        .split('\n') // Tách dữ liệu thành từng dòng
+        .slice(2, -1) // Loại bỏ 2 dòng đầu và dòng cuối
+        .map((row) => row.split(/\s{2,}/)) // Tách dữ liệu thành mảng các cột
+        .sort((a, b) => parseFloat(b[4]) - parseFloat(a[4])) // Sắp xếp theo giá trị số trong cột thứ 4
+        .map((row) => row.join('  ')); // Ghép các cột thành một dòng
+  
+      setData(sortedData); // Gán dữ liệu đã được sắp xếp vào biến "data"
     } catch (error) {
-      console.error(error);
+      console.error(error); // In ra lỗi nếu có
     }
-  };
+  };  
 
   const handleNextButtonClick = () => {
     setIsShowing(true);
